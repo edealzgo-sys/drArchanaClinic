@@ -18,3 +18,33 @@
 .animate-fadeIn {
   animation: fadeIn 1.2s ease-out forwards;
 }
+/* vertical auto scroll */
+@keyframes verticalScroll {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-50%);
+  }
+}
+
+.auto-scroll {
+  animation: verticalScroll 20s linear infinite;
+}
+
+/* 3D flip helpers */
+.perspective {
+  perspective: 1200px;
+}
+
+.preserve-3d {
+  transform-style: preserve-3d;
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+}
+
+.rotate-y-180 {
+  transform: rotateY(180deg);
+}

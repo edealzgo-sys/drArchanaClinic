@@ -10,7 +10,7 @@ import HomeAdmin from "./pages/admin/home_admin";
 /* -------- USER PAGES -------- */
 import HomeUser from "./pages/user/home_user";
 // import BookAppointment from "./pages/user/bookAppointment";
-// import Treatments from "./pages/user/treatments";
+import Treatments from "./pages/user/treatments";
 
 /* -------- COMMON / OPTIONAL -------- */
 // import Stories from "./pages/successStories/stories";
@@ -30,8 +30,8 @@ const App = () => {
 
         {/* -------- USER -------- */}
         <Route path="/user/home" element={<HomeUser />} />
-        {/* <Route path="/user/book-appointment" element={<BookAppointment />} />
-        <Route path="/user/treatments" element={<Treatments />} /> */}
+        {/* <Route path="/user/book-appointment" element={<BookAppointment />} /> */}
+        <Route path="/user/treatments" element={<Treatments />} />
 
         {/* -------- SUCCESS STORIES -------- */}
         {/* <Route path="/stories" element={<Stories />} /> */}
